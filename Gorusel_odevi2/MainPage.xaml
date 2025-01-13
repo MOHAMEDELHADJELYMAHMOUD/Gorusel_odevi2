@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Gorusel_odevi2.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+
+            <Label
+    Text="ÖDEV-3"
+    SemanticProperties.HeadingLevel="Level1"
+    FontSize="32"
+    HorizontalOptions="Center"
+    TextColor="Blue" />
+
+            <Image
+    Source="mohammed.jpeg"
+    HeightRequest="300"
+    HorizontalOptions="Center" />
+
+            <Label
+    Text="MOHAMED EL HADJ ELY MAHMOUD"
+    SemanticProperties.HeadingLevel="Level1"
+    FontSize="32"
+    HorizontalOptions="Center"
+    TextColor="#4682B4" />
+
+            <Label
+    Text="21670310078"
+    FontSize="18"
+    HorizontalOptions="Center"
+    TextColor="Blue" />
+
+            <Label
+    Text="Bartın üniversitesi "
+    FontSize="30"
+    HorizontalOptions="Center"
+    TextColor="#708090" />
+
+            <Label
+    Text="Bilgisayar mühendisliği Bölümü"
+    FontSize="18"
+    HorizontalOptions="Center"
+    TextColor="#A0522D" />
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
